@@ -1,0 +1,33 @@
+{
+    "intents": [
+        {
+            "tag": "greeting",
+            "patterns": [
+                "Hi",
+                "Hello",
+                "Hey",
+                "Good morning",
+                "Good evening"
+            ],
+            "responses": [
+                "Hello! I'm here for you. How are you feeling today?",
+                "Hi there. You can talk to me about anything on your mind."
+            ]
+        },
+        {
+            "tag": "anxiety",
+            "patterns": [
+                "I'm feeling anxious",
+                "I have anxiety",
+                "I'm nervous",
+                "I can't calm down",
+                "My mind is racing"
+            ],
+            "responses": [
+                "I'm sorry you're feeling this way. Want to tell me what's causing the anxiety?",
+                "You're not alone. Let's take a deep breath together. Inhale... exhale...",
+                "It\u2019s okay to feel anxious sometimes. Do you want to talk about it?"
+            ]
+        }
+    ]
+}
